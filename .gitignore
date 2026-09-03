@@ -17,3 +17,5 @@ PACKAGE-LICENSES/
 README.usd-binaries.md
 pxrConfig.cmake
 requirements.txt
+
+own_test_files/
