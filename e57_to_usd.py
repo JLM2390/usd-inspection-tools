@@ -8,7 +8,7 @@ usd_path = sys.argv[2]
 
 print(f"Leyendo {e57_path} ...")
 e57 = pye57.E57(e57_path)
-data = e57.read_scan(0, colors=True, intensity=True)
+data = e57.read_scan(0, colors=True, intensity=True, ignore_missing_fields=True)
 
 # Coordenadas
 x = data["cartesianX"]
